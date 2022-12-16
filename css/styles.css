@@ -1,0 +1,118 @@
+html{
+    background-color: white;
+}
+body{
+    margin: 0;
+}
+#mobile{
+    display: none;
+}
+#topo{
+    display: flex;
+    margin: 50px 300px 20px 350px;
+   align-items: center;
+}
+#ftperfil{
+    text-align: center;
+    margin: 40px;
+
+}
+#ftperfil img{
+    width: 300px;
+    border-radius:200px;
+}
+#infos1{
+    display: flex;
+}
+
+#nome1{
+    display: flex;
+    margin-top: 25px;
+    font-family: 'normal';
+}
+#nome1I{
+text-align: center;
+margin: 30px;
+}
+.edit{
+    margin-left: 10px;
+    text-align: center;
+    margin: 40px 5px;
+    padding: 1px  5px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    font-size: 10px;
+    font-family: 'normal';
+}
+
+#config{
+    text-align: center;
+    margin: 30px 10px;
+}
+#infosInsta{
+    display: flex;
+}
+.publi{
+    display: flex;
+    margin: 20px;
+    letter-spacing: 1px;
+}
+.negrito{
+    margin: 8px;
+    font-family: 'bold';
+}
+.normal{
+    margin: 5px;
+    font-family: 'normal';
+}
+#sobre h3{
+    font-family: 'bold';
+}
+#sobre{
+    font-family: 'normal';
+}
+#destaques{
+    display: flex;
+    margin: 10px 350px;
+}
+#publicadas img{
+    width: 100px;
+    border-radius: 100px;
+    margin: 5px 15px;
+}
+#novas img{
+    width: 100px;
+    margin: 5px 15px;
+}
+table{
+    border-collapse: collapse;
+    width: 1250px;
+    margin: 50px 300px 50px 300px;
+
+}
+.imgs img{
+    width: 30px;
+}
+th{
+    padding: 10px;
+    border-top: 0.1px solid  rgb(2, 2, 2);
+}
+tr{
+    text-align: center;
+}
+th:nth-child(even){
+    text-align: left;
+}
+.tex{
+    letter-spacing: 7px;
+    font-family: 'normal';
+}
+.containerpost{
+    display: flex;
+    margin: 0px 500px 0px 500px;
+    text-align: center;
+}
+.posts img{
+    width: 300px;
+    margin: 20px;
+}

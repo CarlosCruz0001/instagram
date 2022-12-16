@@ -1,0 +1,148 @@
+@media screen and (max-width: 600px){
+#desktop{
+    display: none;
+}
+#mobile{
+    display: block;
+}
+#toop{
+    display: flex;
+    margin: 3px 1px 3px 1px;
+}
+#config{
+    width: 80px;
+    text-align: left;
+}
+#config img{
+    width: 30px;
+    padding: 5px;
+}
+#name{
+    width:100px;
+    padding: 10px;
+    margin-top: 12px;
+    text-align: center;
+}
+#add{
+    width: 80px;
+    padding: 10px;
+    text-align: right;
+}
+#add img{
+    width: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+#texttop{
+    margin-left: 10px;
+    padding-top: 15px;
+}
+#containerG{
+    display: flex;
+    text-align: center;
+}
+#perfil img{
+    border-radius: 180px;
+    width: 120px;
+}
+#container{
+    display: flex;
+}
+#text{
+    font-family: 'normal';
+    font-size: 25px;
+}
+#config1{
+    margin-left: 7px;
+    padding-top: 7px;
+}
+#config1 img{
+    width: 20px;
+}
+
+
+.tex{
+    text-align: center;
+    margin: 4px 5px;
+    padding: 1px  5px;
+    border-radius: 3px;
+    border: 0.5px solid gray;
+    font-size: 8px;
+    font-family: 'normal';
+    letter-spacing: 1px;
+}
+#texbottom{
+    font-size: 8px;
+    margin: 9px;
+}
+#texbottom h1{
+font-family: "bold";
+}
+#texbottom h2{
+    font-family: 'normal';
+}
+#destaques{
+    margin: 2px 3px 2px 3px;
+}
+#destaques1 img{
+    width: 60px;
+    border-radius: 180px;
+    padding: 3px;
+}
+#new img{
+    width: 60px;
+    padding: 3px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 120px;
+    margin: 10px 10px 5px 1px;
+
+}
+th{
+    padding: 10px;
+    border-top: 0.1px solid  rgb(2, 2, 2);
+}
+tr{
+    text-align: center;
+}
+th:nth-child(even){
+    text-align: left;
+}
+td{
+    width: 100px;
+    margin: 50px 10px 50px 10px;
+}
+.bold{
+    font-family: 'bold';
+    font-size: 13px;
+    text-align: center;
+}
+.normal{
+    font-family: 'normal';
+    font-size: 13px;
+}
+#ic{
+    display: flex;
+    padding: 5px;
+    width: 80px;
+}
+.icons{
+ margin: 0px 26px 0px 26px;
+}
+
+.icons img{
+    width: 20px;
+
+}
+.containerpost{
+    display: flex;
+    margin: 0px 2px 0px 2px;
+    text-align: center;
+    width: 200px;
+}
+.posts img{
+    width: 60px;
+}
+}
